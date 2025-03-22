@@ -9,3 +9,7 @@ https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd
 #### Create Debain ISO
 
     sudo dd if=debian-testing-amd64-netinst.iso  of=/dev/sda bs=4M status=progress && sync
+
+#### Install thunar
+
+    apt thunar
